@@ -1,10 +1,9 @@
 @charset "UTF-8"; 
 
-@import url('https://fonts.googleapis.com/css2?family= Poppins :ital,wght@1,500 & display=swap');
 
 @font-face {
-    font-family: 'fontelogo';
-    src: url('../_fonts/bubblegum-sans-regular.otf');
+    font-family: 'Fontelogo';
+    src: url('projeto/fonts/Poppins/Poppins-Black.otf');
 }
 body {
     background-color: grey;
@@ -25,8 +24,8 @@ p {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 1085px;
-    top: 70px;
+    left: 1020px;
+    top: 80px;
 }
 
 header#cabecalho {
@@ -39,7 +38,6 @@ header#cabecalho h1{
         font-family: 'fontelogo', Arial;
         font-size: 30pt;
         color: 	#383838;
-        text-shadow: 1px 1px 1px rgba(0,0,0,.6);
         padding: 0px;
         margin-bottom: 0px;
 }
@@ -132,13 +130,10 @@ section#corpo {
 
 article#noticia-principal h2 {
     font-size: 12pt;
-    color: white;
-    background-color:#909090;
+    color: #3C3F36;
+    background-color: #CECDCC;
     padding: 5px 0px 5px 0px;
     margin: 10px 0px 10px 0px;
-    opacity: 2;
-
-
 }
 
 table#tabela {
@@ -194,6 +189,6 @@ footer#rodape {
 footer#rodape p {
     text-align: center;
     text-indent: 0px;
-    
 
 }
+

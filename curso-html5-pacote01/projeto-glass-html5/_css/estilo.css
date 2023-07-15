@@ -1,21 +1,19 @@
 @charset "UTF-8"; 
 
-@import url('https://fonts.googleapis.com/css2?family= Poppins :ital,wght@1,500 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,700&display=swap');
 
-@font-face {
-    font-family: 'fontelogo';
-    src: url('../_fonts/bubblegum-sans-regular.otf');
-}
+
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: grey;
-}
+}   
 
 div#interface {
     width: 1000px;
-    background-color: whitesmoke;
+    background-color: white;
     margin: -10px auto 1px auto;  /* cima-direita-baixo-esquerda */
     box-shadow: 0px 0px 10px rgba(0,0,0,.5) ; /* Espaçamento lateral - Espaçamento Vertical - Espalhamento da sombra - cor */
-    padding: 10px;
+    padding: 10px; 
 }
 
 p {
@@ -23,25 +21,37 @@ p {
     text-indent: 50px;
 }
 
+a {
+    color: #DF1C44;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 header#cabecalho img#icone {
     position: absolute;
-    left: 1085px;
-    top: 70px;
+    left: 1010px;
+    top: 60px;
 }
 
 header#cabecalho {
     border-bottom: 1px #606060 solid ;
-    height: 150px;
-    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
+    height: 160px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
 }
 
 header#cabecalho h1{
-        font-family: 'fontelogo', Arial;
-        font-size: 30pt;
-        color: 	#383838;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30pt;
+        color: #565051;
         text-shadow: 1px 1px 1px rgba(0,0,0,.6);
-        padding: 0px;
-        margin-bottom: 0px;
+        padding: 0%;
+        margin-bottom: 1px;
+        margin-top: auto;
+        text-shadow: 1px 1px 1px #383838;
 }
 
 header#cabecalho h2{
@@ -91,8 +101,8 @@ nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -10px;
-    left: 600px;
+    top: -9px;
+    left: 550px;
 }
 
 nav#menu h1 {
@@ -102,9 +112,9 @@ nav#menu h1 {
 nav#menu li {
     display: inline-block;
     background-color: #dddddd;
-    padding: 7px;
-    margin: 3px;
-    transition: background-color 1s;
+    padding: 6px;
+    margin: 4px;
+    transition: background-color 2s;
 }
 
 nav#menu li:hover {
@@ -128,34 +138,59 @@ section#corpo {
     float: left;
     border-right: 1px solid black;
     padding-right: 22px;
+
 }
 
 article#noticia-principal h2 {
     font-size: 12pt;
     color: white;
-    background-color:#909090;
-    padding: 5px 0px 5px 0px;
+    background-color:#3C3F36;
+    padding: 6px 0px 6px 0px;
     margin: 10px 0px 10px 0px;
-    opacity: 2;
-
-
+    text-align: center;
 }
+
+header#cabecalho-artigo h1{
+    font-family: 'fontelogo', Arial;
+    font-size: 20pt;
+    color: #565051; 
+    margin-bottom: 0px;
+}
+header#cabecalho-artigo h2{ 
+    font-size: 13pt;
+    color: #CECDCC;
+    background-color: whitesmoke;
+}
+
+.direita{
+    text-align: right;
+}
+hgroup#mudancanome h2{
+    text-align: left;
+    color: #977F6C;
+}
+header#cabecalho-artigo h3{
+    font-size: 10pt;
+    color: #3C3F36;
+}
+
 
 table#tabela {
     border: 1px solid #383838;
     border-spacing: 0px;
-    margin-left: 7px;
-    margin-right: 7px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 table#tabela td.ce {
     color: white;
     background-color: #383838;
+    padding: 10px;
 }
 table#tabela td.cd {
-    color: 	whitesmoke;
-    background-color: #606060;
+    color: 	#383838;
+    background-color: #E5E4E2;
     
 }
 table#tabela caption {
@@ -168,8 +203,8 @@ table#tabela caption {
 table#tabela caption span {
     display: block;
     float: right;
-    color: black;
-    font-size: 9pt;
+    color: #383838;
+    font-size: 10pt;
     margin-top: 9px;
 
 }
@@ -184,6 +219,24 @@ aside#lateral {
     display: block;
     width: 400px;
     float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px #848482;
+    margin: 10px 20px 30px 10px;
+}
+
+aside#lateral h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
+    color: #565051;
+    margin-top: 10px;
+}
+aside#lateral h2 {
+    background-color: #3C3F36;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 12pt;
 }
 
 footer#rodape {
