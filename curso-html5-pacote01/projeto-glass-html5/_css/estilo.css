@@ -138,7 +138,6 @@ section#corpo {
     float: left;
     border-right: 1px solid black;
     padding-right: 22px;
-
 }
 
 article#noticia-principal h2 {
@@ -247,6 +246,4 @@ footer#rodape {
 footer#rodape p {
     text-align: center;
     text-indent: 0px;
-    
-
 }
